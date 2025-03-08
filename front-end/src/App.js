@@ -1,10 +1,17 @@
-
+import NavBar from "./Header/NavBar"
 import './App.css';
+
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <p>hello world</p>
+  
+      <NavBar />
     </div>
   );
 }
