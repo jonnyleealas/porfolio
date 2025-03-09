@@ -11,6 +11,7 @@ const Footer: React.FC = () => {
         </Row>
         <Row>
           <Col className="text-center">
+          {/**hello */}
             <a href="#privacy" className="text-white mx-2">Privacy Policy</a>
             <a href="#terms" className="text-white mx-2">Terms of Service</a>
           </Col>
