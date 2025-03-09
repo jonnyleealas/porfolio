@@ -1,12 +1,22 @@
 import React from 'react';
 import NavBarComponent from './Header/NavBar';
+import Home from './Home/Home';
+import Footer from './Footer/Footer';
 
-// You can define types for props or state if you use them
-const App: React.FC = () => {  // React.FC (Function Component) is an optional type annotation for functional components.
+
+
+const App: React.FC = () => {  
   return (
-    <div className="App">
+    <div className="App" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      <div style={{flex: 1}}>
+
       <NavBarComponent />
+      <Home />
+       
+   
     </div>
+      <Footer />
+  </div>
   );
 }
 
