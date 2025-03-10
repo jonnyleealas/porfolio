@@ -1,10 +1,24 @@
+/* Ensures that the container takes up the full height of the viewport */
 .App {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    min-height: 100vh; /* Take up the full height of the viewport */
   }
   
-  .App-main {
-    flex: 1;
+  /* Content section will take all available space */
+  .main-content {
+    flex: 1; /* Grow the content section to take the remaining space */
+    padding-bottom: 50px; /* Add some bottom padding to avoid content overlapping with footer */
   }
+  
+  /* Footer styles */
+  .my-custom-footer {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    margin-top: auto; /* Ensure the footer is pushed to the bottom */
+  }
+  
+  /* Optional: Adjust footer padding or style to fit your design needs */
   

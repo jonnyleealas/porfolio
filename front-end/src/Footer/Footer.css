@@ -1,0 +1,16 @@
+/* footer.css */
+
+/* Default footer styling */
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: #fff;               /* White text */
+    padding: 1rem;             /* Padding for the footer */
+    text-align: center;        /* Center the text */
+  }
+  
+
+  /* Optional: If you need to customize the text color or other variations */
+  .footer-light {
+    color: #f8f9fa; /* Light text color */
+  }
+  

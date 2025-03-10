@@ -1,8 +1,15 @@
+import "./Footer.css"
+
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const Footer: React.FC = () => {
+interface FooterProps {
+  className?: string; // Optional className prop
+}
+
+const Footer: React.FC<FooterProps> = ({ className }) => {
   return (
-    <footer className="bg-dark text-white py-3">
+    <footer className={`footer footer-light ${className}`} >
       <Container>
         <Row>
           <Col className="text-center">
@@ -11,7 +18,6 @@ const Footer: React.FC = () => {
         </Row>
         <Row>
           <Col className="text-center">
-          {/**hello */}
             <a href="#privacy" className="text-white mx-2">Privacy Policy</a>
             <a href="#terms" className="text-white mx-2">Terms of Service</a>
           </Col>
@@ -19,6 +25,6 @@ const Footer: React.FC = () => {
       </Container>
     </footer>
   );
-}
+};
 
 export default Footer;
