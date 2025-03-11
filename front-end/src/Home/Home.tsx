@@ -1,44 +1,16 @@
 
-// import "./Home.css"
+import Projects from "../Projects/Projects";
 const Home: React.FC = () => {
   return (
     <div className="Home">
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
+     <h1>Jonathon Lee</h1>
+     <p>BIO</p>
      <h2>sd;lfkasjf</h2>
      <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
-     <h1>Hello world</h1>
-     <p>slfjasdf;lsdjflsdjfs;lj as;lfkjsdfl;ksjdf ;lkjasdfl;sadkjf asd;lfkasdf;lkj</p>
-     <h2>sd;lfkasjf</h2>
+
+
+     <Projects />
+
     </div>
   );
 }
