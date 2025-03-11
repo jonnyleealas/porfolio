@@ -7,7 +7,8 @@ const NavBarComponent: React.FC = () => {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/">Jonathon Lee</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
             <Nav.Link as={Link} to="/Resume">Resume</Nav.Link>
             <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
