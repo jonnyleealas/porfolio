@@ -5,13 +5,12 @@ const Resume: React.FC = () => {
   return (
     <div className="resume-container">
       <header className="resume-header">
-        <h1>John Doe</h1>
+        <h1>Jonathon Lee</h1>
         <p>Software Engineer</p>
         <div className="contact-info">
-          <p>Email: john.doe@example.com</p>
-          <p>Phone: (123) 456-7890</p>
-          <p>Location: San Francisco, CA</p>
-          <p>Website: www.johndoe.com</p>
+          <p>Email: jonnyleeals@gmail.com</p>
+          <p>Location: Austin</p>
+          <p>Website: https://github.com/jonnyleealas</p>
         </div>
       </header>
 
